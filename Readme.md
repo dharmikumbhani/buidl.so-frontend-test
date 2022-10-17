@@ -17,7 +17,8 @@ Your task is
 3. For media queries we use 2, only 2 queries with default being mobile -
    1. min 720px - for tablets
    2. min 1024px - for desktops (you can better understand this looking at css files)
-4. Finally the code changing that you will have to do will be only be for inside #main-content element
+4. The code changing that you will have to do will be only be for inside #main-content element
+5. Whatever content you write it doesn't matter mostly all the content is going to come via the backend. so lorem ipsum at most places will do for this test
 
 ## You will be judged based on:
 ---

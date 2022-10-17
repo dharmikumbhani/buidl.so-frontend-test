@@ -1,57 +1,57 @@
 @font-face {
   font-family: "gilroy-regular";
-  src: url(/themes/buidlerstribe_bootstrap/fonts/gilroy/regular/Gilroy-Regular.eot);
-  src: url(/themes/buidlerstribe_bootstrap/fonts/gilroy/regular/Gilroy-Regular.eot#iefix)
+  src: url(https://buidl.so/themes/buidlerstribe_bootstrap/fonts/gilroy/regular/Gilroy-Regular.eot);
+  src: url(https://buidl.so/themes/buidlerstribe_bootstrap/fonts/gilroy/regular/Gilroy-Regular.eot#iefix)
       format("embedded-opentype"),
-    url(/themes/buidlerstribe_bootstrap/fonts/gilroy/regular/Gilroy-Regular.woff2)
+    url(https://buidl.so/themes/buidlerstribe_bootstrap/fonts/gilroy/regular/Gilroy-Regular.woff2)
       format("woff2"),
-    url(/themes/buidlerstribe_bootstrap/fonts/gilroy/regular/Gilroy-Regular.woff)
+    url(https://buidl.so/themes/buidlerstribe_bootstrap/fonts/gilroy/regular/Gilroy-Regular.woff)
       format("woff"),
-    url(/themes/buidlerstribe_bootstrap/fonts/gilroy/regular/Gilroy-Regular.ttf)
+    url(https://buidl.so/themes/buidlerstribe_bootstrap/fonts/gilroy/regular/Gilroy-Regular.ttf)
       format("truetype"),
-    url(/themes/buidlerstribe_bootstrap/fonts/gilroy/regular/Gilroy-Regular.svg#Gilroy-Regular)
+    url(https://buidl.so/themes/buidlerstribe_bootstrap/fonts/gilroy/regular/Gilroy-Regular.svg#Gilroy-Regular)
       format("svg");
 }
 @font-face {
   font-family: "gilroy-medium";
-  src: url(/themes/buidlerstribe_bootstrap/fonts/gilroy/medium/Gilroy-Medium.eot);
-  src: url(/themes/buidlerstribe_bootstrap/fonts/gilroy/medium/Gilroy-Medium.eot#iefix)
+  src: url(https://buidl.so/themes/buidlerstribe_bootstrap/fonts/gilroy/medium/Gilroy-Medium.eot);
+  src: url(https://buidl.so/themes/buidlerstribe_bootstrap/fonts/gilroy/medium/Gilroy-Medium.eot#iefix)
       format("embedded-opentype"),
-    url(/themes/buidlerstribe_bootstrap/fonts/gilroy/medium/Gilroy-Medium.woff2)
+    url(https://buidl.so/themes/buidlerstribe_bootstrap/fonts/gilroy/medium/Gilroy-Medium.woff2)
       format("woff2"),
-    url(/themes/buidlerstribe_bootstrap/fonts/gilroy/medium/Gilroy-Medium.woff)
+    url(https://buidl.so/themes/buidlerstribe_bootstrap/fonts/gilroy/medium/Gilroy-Medium.woff)
       format("woff"),
-    url(/themes/buidlerstribe_bootstrap/fonts/gilroy/medium/Gilroy-Medium.ttf)
+    url(https://buidl.so/themes/buidlerstribe_bootstrap/fonts/gilroy/medium/Gilroy-Medium.ttf)
       format("truetype"),
-    url(/themes/buidlerstribe_bootstrap/fonts/gilroy/medium/Gilroy-Medium.svg#Gilroy-Medium)
+    url(https://buidl.so/themes/buidlerstribe_bootstrap/fonts/gilroy/medium/Gilroy-Medium.svg#Gilroy-Medium)
       format("svg");
 }
 @font-face {
   font-family: "gilroy-light";
-  src: url(/themes/buidlerstribe_bootstrap/fonts/gilroy/light/Gilroy-Light.eot);
-  src: url(/themes/buidlerstribe_bootstrap/fonts/gilroy/light/Gilroy-Light.eot#iefix)
+  src: url(https://buidl.so/themes/buidlerstribe_bootstrap/fonts/gilroy/light/Gilroy-Light.eot);
+  src: url(https://buidl.so/themes/buidlerstribe_bootstrap/fonts/gilroy/light/Gilroy-Light.eot#iefix)
       format("embedded-opentype"),
-    url(/themes/buidlerstribe_bootstrap/fonts/gilroy/light/Gilroy-Light.woff2)
+    url(https://buidl.so/themes/buidlerstribe_bootstrap/fonts/gilroy/light/Gilroy-Light.woff2)
       format("woff2"),
-    url(/themes/buidlerstribe_bootstrap/fonts/gilroy/light/Gilroy-Light.woff)
+    url(https://buidl.so/themes/buidlerstribe_bootstrap/fonts/gilroy/light/Gilroy-Light.woff)
       format("woff"),
-    url(/themes/buidlerstribe_bootstrap/fonts/gilroy/light/Gilroy-Light.ttf)
+    url(https://buidl.so/themes/buidlerstribe_bootstrap/fonts/gilroy/light/Gilroy-Light.ttf)
       format("truetype"),
-    url(/themes/buidlerstribe_bootstrap/fonts/gilroy/light/Gilroy-Light.svg#Gilroy-Light)
+    url(https://buidl.so/themes/buidlerstribe_bootstrap/fonts/gilroy/light/Gilroy-Light.svg#Gilroy-Light)
       format("svg");
 }
 @font-face {
   font-family: "gilroy-semibold";
-  src: url(/themes/buidlerstribe_bootstrap/fonts/gilroy/semibold/Gilroy-SemiBold.eot);
-  src: url(/themes/buidlerstribe_bootstrap/fonts/gilroy/semibold/Gilroy-SemiBold.eot#iefix)
+  src: url(https://buidl.so/themes/buidlerstribe_bootstrap/fonts/gilroy/semibold/Gilroy-SemiBold.eot);
+  src: url(https://buidl.so/themes/buidlerstribe_bootstrap/fonts/gilroy/semibold/Gilroy-SemiBold.eot#iefix)
       format("embedded-opentype"),
-    url(/themes/buidlerstribe_bootstrap/fonts/gilroy/semibold/Gilroy-SemiBold.woff2)
+    url(https://buidl.so/themes/buidlerstribe_bootstrap/fonts/gilroy/semibold/Gilroy-SemiBold.woff2)
       format("woff2"),
-    url(/themes/buidlerstribe_bootstrap/fonts/gilroy/semibold/Gilroy-SemiBold.woff)
+    url(https://buidl.so/themes/buidlerstribe_bootstrap/fonts/gilroy/semibold/Gilroy-SemiBold.woff)
       format("woff"),
-    url(/themes/buidlerstribe_bootstrap/fonts/gilroy/semibold/Gilroy-SemiBold.ttf)
+    url(https://buidl.so/themes/buidlerstribe_bootstrap/fonts/gilroy/semibold/Gilroy-SemiBold.ttf)
       format("truetype"),
-    url(/themes/buidlerstribe_bootstrap/fonts/gilroy/semibold/Gilroy-SemiBold.svg#Gilroy-SemiBold)
+    url(https://buidl.so/themes/buidlerstribe_bootstrap/fonts/gilroy/semibold/Gilroy-SemiBold.svg#Gilroy-SemiBold)
       format("svg");
 }
 * {
