@@ -20,7 +20,7 @@ Your task is
 5. Whatever content you write it doesn't matter mostly all the content is going to come via the backend. so lorem ipsum at most places will do for this test
 
 ## You will be judged based on
-- How concise your CSS is
+- How concise your CSS is.
 - Amount of css class you had to create to achieve this page.
 - Understanding of how the html code was structured in the initially given file
 
