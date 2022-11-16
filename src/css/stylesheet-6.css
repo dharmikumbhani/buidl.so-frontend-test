@@ -1,0 +1,142 @@
+  body{
+    font-family: 'Poppins', sans-serif;
+  }
+  .my-section{
+    margin-top: 24px;
+    margin-bottom: 24px;
+  }
+  .section-header{
+    /* Pitch to */
+    font-style: normal;
+    font-weight: 400;
+    font-size: 6.5vmin;
+    line-height: 150%;
+/* identical to box height, or 60px */
+    color: #000000;
+  }
+  .section-header-big{
+    /* Pitch to */
+    font-style: normal;
+    font-weight: 500;
+    font-size: 9vmin;
+    line-height: 150%;
+    /* identical to box height, or 96px */
+    color: #000000;
+  }
+
+
+  .content-p{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 3vmin;
+    line-height: 150%;
+  }
+
+  .apply-btn{
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+
+  .logo-cdx{
+    margin-top: 10%; 
+    width: 90%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+  }
+  .text-light{
+    font-style: normal;
+  font-weight: 600;
+  font-size: 4vmin;
+  line-height: 38px;
+  text-align: center;
+  color: #000000;
+  opacity: 0.4;
+  }
+
+  .text-big{
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16vmin;
+  line-height: 160px;
+  }
+
+  .my-view{
+    height: 100vh;
+    max-height: 670px;
+   
+  }
+  .my-container{
+    /* margin-top:50%; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    max-height: 670px;
+  }
+
+  .divider{
+    /* background-image: linear-gradient(rgba(7, 7, 7, 0), rgb(0, 0, 0),rgba(7, 7, 7, 0) );
+    height: 100vh;;
+    max-width: 10px;
+    margin: 0%; */
+            border-image: linear-gradient(rgba(7, 7, 7, 0), rgb(0, 0, 0),rgba(7, 7, 7, 0)) 1;
+            border-left: 3px solid;
+            height: 100vh;
+            max-height: 668px;
+            position:absolute;
+            left: 50%;
+  }
+
+  .section-heading{
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 38px;
+  text-align: center;
+  color: #000000;
+  opacity: 0.6;
+  }
+  .mentor{
+    /* display: flex; */
+    align-items: center;
+    justify-content: center;
+  }
+  .mentor img{
+    display: block;
+    height: 250px;
+    width: 250px;
+    border-radius: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 24px;
+  }
+
+  .mentor p{
+    margin-top: 24px;
+    font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 29px;
+/* identical to box height */
+
+text-align: center;
+  }
+
+
+  @media screen and (max-width: 991px){
+    .divider{
+      visibility: hidden;
+    }
+    .my-container{
+      max-height: 400px;
+    }
+    .divider-horizontal{
+              border-image: linear-gradient(rgba(7, 7, 7, 0), rgb(0, 0, 0),rgba(7, 7, 7, 0)) 2;
+              border-bottom: 3px solid;
+              width: 90%;
+              margin-left: auto;
+              position:absolute;
+    }
+  }
