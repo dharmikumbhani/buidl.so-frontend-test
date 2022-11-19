@@ -18,7 +18,7 @@ If you have your own idea for how this program page should look like, then pleas
 3. For media queries we use 2, only 2 queries with default being mobile -
    1. min 720px - for tablets
    2. min 1024px - for desktops (you can better understand this looking at css files)
-4. The code changing that you will have to do will be only be for inside #main-content element
+4. The code changing that you will have to do will be only be for inside #main-content element ////////----
 5. Whatever content you write it doesn't matter mostly all the content is going to come via the backend. so lorem ipsum at most places will do for this test
 6. stylesheet-4.css is not that consequential for these page but will be good for you to just go through it.
 7. page-1.html was added just to give you more reference on html structuring.
