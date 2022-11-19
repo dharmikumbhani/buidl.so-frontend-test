@@ -18,9 +18,15 @@ flex: 0 1 100%;
     min-width: 150px;
     width: 220px;
     overflow: hidden;
-    margin: 0px 60px 0px 0px;
+    /* margin: 0px 60px 0px 0px; */
 }
 
 .program-view-mentor-profile > h4{
     border: 1px solid black !important;
 }
+.parent-container-flex .view-content{
+    display: flex;
+    justify-content: space-around;
+}
+
+/* want to give align center to the mentoring heading to align it into center */
