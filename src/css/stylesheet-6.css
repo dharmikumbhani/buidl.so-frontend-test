@@ -1,12 +1,26 @@
 .view-content{
     /* border: 1px solid black; */
-    /* width: 143% !important; */
 }
 
-.form-group{
-    border: 1px solid black;
-    width: 100% !important;
+/* main body of the page */
+.layout--twocol-section.layout--twocol-section--75-25
+> .layout__region--first {
+flex: 0 1 100%;
 }
-.views-element-container{
-    width: 143% !important;
+
+/* images of mentors */
+.program-view-mentor-profile {
+    /* border: 1px solid black; */
+    border-radius: 6px !important;
+    max-width: 250px !important;
+    max-height: 250px;
+    aspect-ratio: 1;
+    min-width: 150px;
+    width: 220px;
+    overflow: hidden;
+    margin: 0px 60px 0px 0px;
+}
+
+.program-view-mentor-profile > h4{
+    border: 1px solid black !important;
 }
