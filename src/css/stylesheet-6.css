@@ -28,5 +28,8 @@ flex: 0 1 100%;
     display: flex;
     justify-content: space-around;
 }
+.second_box-pitch{
+    border: 1px solid black;
+}
 
 /* want to give align center to the mentoring heading to align it into center */
