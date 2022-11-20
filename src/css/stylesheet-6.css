@@ -1,11 +1,15 @@
-.view-content{
+body{
+    /* font-family:Gilroy; */
+    font-weight: 500;
+}
+.view-content {
     /* border: 1px solid black; */
+    /* display: flex; */
 }
 
 /* main body of the page */
-.layout--twocol-section.layout--twocol-section--75-25
-> .layout__region--first {
-flex: 0 1 100%;
+.layout--twocol-section.layout--twocol-section--75-25 > .layout__region--first {
+    flex: 0 1 100%;
 }
 
 /* images of mentors */
@@ -20,16 +24,48 @@ flex: 0 1 100%;
     overflow: hidden;
     /* margin: 0px 60px 0px 0px; */
 }
-
 .program-view-mentor-profile > h4{
     border: 1px solid black !important;
 }
-.parent-container-flex .view-content{
+/* // overlaping */
+.parent-container-flex > .view-content{           
     display: flex;
     justify-content: space-around;
 }
 .second_box-pitch{
-    border: 1px solid black;
+    /* border: 1px solid black; */
+    /* display: flex; */
 }
-
+.second_box-pitch-left{
+    border: 1px solid red;
+    width: 50%;
+}
+.second_box-pitch-right{
+    border: 1px solid red;
+    width: 50%;
+}
+.second_box-pitch-mid{
+    width: 0;
+    height: 300px;
+    border: 12px solid black;
+    border-image-source: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #000000 46.52%, rgba(0, 0, 0, 0) 100%);
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #000000 46.52%, rgba(0, 0, 0, 0) 100%);
+}
+.third_view_content > .view-content{
+    margin:150px 0px;
+    width: 100%;
+    margin: auto;
+    /* border: 10px solid red; */
+    display:flex;
+    justify-content: space-around;
+}
+.btn_Apply{
+    height: 48px;
+    width: 316px;
+    border-radius: 12px;
+    padding: 5px 80px 5px 80px;
+    background: #407BFF;
+    color: white;
+    font-size: 18px;
+}
 /* want to give align center to the mentoring heading to align it into center */
