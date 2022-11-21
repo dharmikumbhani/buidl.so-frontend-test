@@ -112,9 +112,10 @@ body{
     width: 217px;
     height: 100px;
 }
-/* .whole_box{
-    border: 1px solid black;
-} */
+.whole_box{
+    /* border: 1px solid black; */
+    margin: 50px 0px;
+}
 .btn{
     padding: 12px 110px;
     border-radius:6px;
@@ -124,6 +125,19 @@ body{
     max-width: 90%;
     min-width: auto;
     font-weight: 550;
-    font-size-adjust: 24px;
+    font-size: 15px;
     padding: 0px 30px 10px 0px;
+}
+.pitch_to{
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 60px;
+    text-align: left;
+}
+.coindcx{
+    font-size: 64px;
+    font-weight: 500;
+    line-height: 96px;
+    text-align: left;
+
 }
