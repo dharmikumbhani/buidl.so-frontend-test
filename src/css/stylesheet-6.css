@@ -1,17 +1,15 @@
 body{
     /* font-family:Gilroy; */
-    font-weight: 500;
+    font-weight: 525;
 }
 .view-content {
     /* border: 1px solid black; */
     /* display: flex; */
 }
-
 /* main body of the page */
 .layout--twocol-section.layout--twocol-section--75-25 > .layout__region--first {
     flex: 0 1 100%;
 }
-
 /* images of mentors */
 .program-view-mentor-profile {
     /* border: 1px solid black; */
@@ -20,7 +18,7 @@ body{
     max-height: 250px;
     aspect-ratio: 1;
     min-width: 150px;
-    width: 220px;
+    /* width: 220px; */
     overflow: hidden;
     /* margin: 0px 60px 0px 0px; */
 }
@@ -37,12 +35,21 @@ body{
     /* display: flex; */
 }
 .second_box-pitch-left{
-    border: 1px solid red;
+    /* border: 1px solid red; */
     width: 50%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 35px;
 }
 .second_box-pitch-right{
-    border: 1px solid red;
+    /* border: 1px solid red; */
     width: 50%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 35px;
+
 }
 .second_box-pitch-mid{
     width: 0;
@@ -69,3 +76,54 @@ body{
     font-size: 18px;
 }
 /* want to give align center to the mentoring heading to align it into center */
+
+.block-title{
+    /* border: 1px solid black; */
+    font-size: 16px;
+    opacity: 0.5;
+    font-weight: 600;
+    line-height: 20px;
+    text-align: center;
+    padding-bottom: 12px;
+}
+.block-title-1{
+    /* border: 1px solid black; */
+    text-align: center;
+    font-weight: 400;
+    font-size: 17px;
+}
+.block-title-2{
+    font-size: 38px;
+    font-weight: 600;
+    text-align: center;
+}
+.sideways_1{
+    /* border: 1px solid black; */
+    width: 60%;
+    margin: auto;
+}
+.sideways_img{
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+}
+.imgdcx{
+    /* border: 1px solid black; */
+    width: 217px;
+    height: 100px;
+}
+/* .whole_box{
+    border: 1px solid black;
+} */
+.btn{
+    padding: 12px 110px;
+    border-radius:6px;
+}
+.landing_parag *{
+    /* border: 1px solid black; */
+    max-width: 90%;
+    min-width: auto;
+    font-weight: 550;
+    font-size-adjust: 24px;
+    padding: 0px 30px 10px 0px;
+}
