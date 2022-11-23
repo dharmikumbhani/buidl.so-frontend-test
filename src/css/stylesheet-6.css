@@ -1,5 +1,6 @@
 body{
     /* font-family:Gilroy; */
+    /* font-style: medium; */
     font-weight: 525;
 }
 .view-content {
@@ -30,10 +31,6 @@ body{
     display: flex;
     justify-content: space-around;
 }
-.second_box-pitch{
-    /* border: 1px solid black; */
-    /* display: flex; */
-}
 .second_box-pitch-left{
     /* border: 1px solid red; */
     width: 50%;
@@ -53,11 +50,12 @@ body{
 }
 .second_box-pitch-mid{
     width: 0;
-    height: 300px;
-    border: 12px solid black;
-    border-image-source: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #000000 46.52%, rgba(0, 0, 0, 0) 100%);
+    height: 335px;
+    border-right: 2px solid black;
     background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #000000 46.52%, rgba(0, 0, 0, 0) 100%);
-}
+    /* border: 2px solid; */
+    /* border-image-source: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #000000 46.52%, rgba(0, 0, 0, 0) 100%); */
+    }
 .third_view_content > .view-content{
     margin:150px 0px;
     width: 100%;
@@ -79,23 +77,37 @@ body{
 
 .block-title{
     /* border: 1px solid black; */
-    font-size: 16px;
-    opacity: 0.5;
+    font-size: 15px;
+    opacity: 0.4;
     font-weight: 600;
     line-height: 20px;
     text-align: center;
-    padding-bottom: 12px;
+    /* padding-bottom: 12px; */
 }
 .block-title-1{
     /* border: 1px solid black; */
     text-align: center;
     font-weight: 400;
-    font-size: 17px;
+    font-size: 21px;
 }
 .block-title-2{
     font-size: 38px;
     font-weight: 600;
     text-align: center;
+}
+.block-title-3{
+    display:flex;
+    justify-content: flex-start;
+    font-size: 21px;
+    margin:20px 0px 0px 0px;
+    padding: 15px 0px;
+}
+.mentoring_head_name{
+    text-align: center;
+    font-size: 17px;
+    font-weight: 600;
+    /* font-family: Gilroy; */
+    font-style: SemiBold;
 }
 .sideways_1{
     /* border: 1px solid black; */
@@ -110,7 +122,7 @@ body{
 .imgdcx{
     /* border: 1px solid black; */
     width: 217px;
-    height: 100px;
+    height: 124px;
 }
 .whole_box{
     /* border: 1px solid black; */
@@ -124,8 +136,8 @@ body{
     /* border: 1px solid black; */
     max-width: 90%;
     min-width: auto;
-    font-weight: 550;
-    font-size: 15px;
+    font-weight: 500;
+    font-size: 14px;
     padding: 0px 30px 10px 0px;
 }
 .pitch_to{
@@ -139,5 +151,4 @@ body{
     font-weight: 500;
     line-height: 96px;
     text-align: left;
-
 }
