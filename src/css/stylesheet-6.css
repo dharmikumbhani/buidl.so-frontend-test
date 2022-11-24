@@ -3,6 +3,19 @@ body{
     /* font-style: medium; */
     font-weight: 525;
 }
+.pitch_to{
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 60px;
+    text-align: left;
+}
+.coindcx{
+    font-size: 64px;
+    font-weight: 500;
+    line-height: 96px;
+    text-align: left;
+}
+/* every container of the content */
 .view-content {
     /* border: 1px solid black; */
     /* display: flex; */
@@ -34,6 +47,7 @@ body{
 .media_box_phone{
     display: flex;
 }
+/* Inside third view content */
 .second_box-pitch-left{
     /* border: 1px solid red; */
     width: 50%;
@@ -76,7 +90,7 @@ body{
     color: white;
     font-size: 18px;
 }
-/* want to give align center to the mentoring heading to align it into center */
+
 
 .block-title{
     /* border: 1px solid black; */
@@ -105,14 +119,7 @@ body{
     margin:20px 0px 0px 0px;
     padding: 15px 0px;
 }
-.mentoring_head_name{
-    text-align: center;
-    font-size: 17px;
-    font-weight: 600;
-    /* font-family: Gilroy; */
-    font-style: SemiBold;
-}
-.sideways_1{
+.sideways_0{
     /* border: 1px solid black; */
     width: 50%;
     margin: auto;
@@ -121,6 +128,14 @@ body{
     /* border: 1px solid black; */
     display: flex;
     justify-content: center;
+}
+/* mentoring related css */
+.mentoring_head_name{
+    text-align: center;
+    font-size: 16px;
+    font-weight: 599;
+    /* font-family: Gilroy; */
+    font-style: SemiBold;
 }
 .imgdcx{
     /* border: 1px solid black; */
@@ -142,18 +157,6 @@ body{
     font-weight: 500;
     font-size: 14px;
     padding: 0px 30px 10px 0px;
-}
-.pitch_to{
-    font-size: 40px;
-    font-weight: 400;
-    line-height: 60px;
-    text-align: left;
-}
-.coindcx{
-    font-size: 64px;
-    font-weight: 500;
-    line-height: 96px;
-    text-align: left;
 }
 
 /* Media Queries for Phone as min 320px */
