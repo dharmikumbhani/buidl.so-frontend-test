@@ -22,8 +22,9 @@
         integrity="sha512-tGFFYdzcicBwsd5EPO92iUIytu9UkQR3tLMbORL9sfi/WswiHkA1O3ri9yHW+5dXk18Rd+pluMeDBrPKSwNCvw=="
         crossorigin="anonymous">
     <link rel="stylesheet" media="all" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
-    <link rel="stylesheet" media="all"
-        href="./css/stylesheet-5.css">
+    <link rel="stylesheet" media="all" href="./css/stylesheet-5.css">
+    <!-- css added by me to make figma design with media queries. -->
+    <link rel="stylesheet" media="all" href="./css/stylesheet-6.css">
 
 
     <!--[if lte IE 8]>
@@ -43,9 +44,11 @@
 </head>
 
 <body class="path-node page-node-type-programs has-glyphicons">
-    <a href="#main-content" class="visually-hidden focusable skip-link">
+    <!-- <button> -->
+        <a href="#main-content" class="visually-hidden focusable skip-link">
         Skip to main content
-    </a>
+        </a>
+    <!-- </button> -->
 
     <div class="dialog-off-canvas-main-canvas" data-off-canvas-main-canvas="">
         <header class="navbar navbar-default container" id="navbar" role="banner">
@@ -71,29 +74,31 @@
                         id="block-buidlerstribe-bootstrap-main-menu">
                         <h2 class="sr-only" id="block-buidlerstribe-bootstrap-main-menu-menu">Main navigation</h2>
 
-
+                        <!-- header's list -->
                         <ul class="menu menu--main nav navbar-nav">
                             <li class="first">
-                                <a href="/rewards" data-drupal-link-system-path="node/1532">Rewards</a>
+                              <a href="/rewards" data-drupal-link-system-path="node/1532">Dashboard</a>
                             </li>
                             <li>
-                                <a href="/programs" data-drupal-link-system-path="programs">Programs</a>
+                              <a href="/programs" data-drupal-link-system-path="programs">Add Fund Profile</a>
                             </li>
                             <li>
-                                <a href="/chains" data-drupal-link-system-path="node/1620">Chains</a>
+                              <a href="/chains" data-drupal-link-system-path="node/1620">Add Startup Profile</a>
                             </li>
                             <li>
-                                <a href="/investors" title="How buidl.so can help investors"
-                                    data-drupal-link-system-path="node/1214">Investors</a>
+                              <a href="/investors" title="How buidl.so can help investors"
+                                data-drupal-link-system-path="node/1214">Add Mentor Profile</a>
                             </li>
                             <li>
-                                <a href="/user/login" data-drupal-link-system-path="user/login">Login</a>
+                              <a href="/user/login" data-drupal-link-system-path="user/login">My Account</a>
                             </li>
                             <li class="last">
-                                <a href="/user/register" data-drupal-link-system-path="user/register">Register</a>
+                              <a href="/user/register" data-drupal-link-system-path="user/register">Logout</a>
                             </li>
-                        </ul>
-
+                            <li class="last">
+                              <a href="/user/register" data-drupal-link-system-path="user/register">Login</a>
+                            </li>
+                          </ul>
 
                     </nav>
 
@@ -108,28 +113,17 @@
                 <div class="col-sm-12" role="heading">
                     <div class="region region-header">
                         <div data-drupal-messages-fallback="" class="hidden"></div>
-                        <h1 class="page-header"><span>Unfold - 2022</span>
+                        <h1 class="page-header"><span>Exa Protocol</span>
                         </h1>
-
-
                     </div>
-
                 </div>
 
 
                 <section class="col-sm-12">
-
-
-
-
                     <a id="main-content"></a>
                     <div class="region region-content">
                         <article data-history-node-id="885" role="article" about="/unfold-2022"
                             class="programs full clearfix">
-
-
-
-
 
                             <div class="content">
                                 <div class="layout layout--twocol-section layout--twocol-section--75-25">
@@ -137,18 +131,14 @@
                                     <div class="layout__region layout__region--first">
                                         <section class="block block-views block-views-blockprograms-block-13 clearfix">
 
-
-
                                             <div class="views-element-container form-group">
                                                 <div
                                                     class="view view-programs view-id-programs view-display-id-block_13 js-view-dom-id-de7bc4b727c052921d37f7ea2655aa0da63c4215db6461f88124730354a31761">
 
-
-
                                                     <div class="view-content">
                                                         <div>
-                                                            <div class="program-view-banner"><img
-                                                                    src="https://buidl.so/sites/default/files/programs/banners/unflod%20-22_1.png">
+                                                            <div class="program-view-banner">
+                                                                <img src="https://buidl.so/sites/default/files/programs/banners/unflod%20-22_1.png">
                                                             </div>
                                                         </div>
 
@@ -161,26 +151,23 @@
 
                                         <section class="block block-views block-views-blockprograms-block-7 clearfix">
 
-
-
                                             <div class="views-element-container form-group">
                                                 <div
                                                     class="view view-programs view-id-programs view-display-id-block_7 js-view-dom-id-3f96d61a2e91dd6c585c6187065f27f88dd8c7fe745ea2332fafd93b8613e10f">
 
-
-
                                                     <div class="view-content">
-                                                        <div>
-                                                            <div class="highlighted-box box-green">
-                                                                <div class="box-content">
-                                                                    <p class="label"><i
-                                                                            class="fa-solid fa-sack-dollar m-r-10"></i>Funding
-                                                                        Pool</p>
-                                                                    <p class="big-txt"><span>$1000000</span></p>
-                                                                </div>
+                                                        <!-- box-content was inside this-->
+                                                        <div class="second_box-pitch">  
+                                                            <p class="pitch_to">Pitch to</p>
+                                                            <p class="coindcx">CoinDCX</p>
+                                                            <div class="landing_parag">
+                                                                <p>
+                                                                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also.
+                                                                </p>
                                                             </div>
+                                                            <p> 📆 26th July - 10th August</p>
+                                                            <button type="button" class="btn btn-primary btn-sm">Apply Now</button>
                                                         </div>
-
                                                     </div>
 
                                                 </div>
@@ -190,37 +177,51 @@
 
                                         <section class="block block-views block-views-blockprograms-block-8 clearfix">
 
-
-
                                             <div class="views-element-container form-group">
                                                 <div
                                                     class="view view-programs view-id-programs view-display-id-block_8 js-view-dom-id-ae018da13d889665b16d1f4258f3021a90da7039838b8cc03b5ac2c9fe9faa10">
 
+                                                    <div class="third_view_content">
+                                                        <div class="view-content">
 
+                                                            <div class="media_box_phone">
+                                                                <!-- box-content was inside this-->
+                                                                <div class="second_box-pitch-left">  
+                                                                    <div class="whole_box">
+                                                                        <div class="sideways_1"><p class="block-title">Winner stands a chance to pitch and win upto </p></div>
+                                                                        <P class="block-title-2">$1MM</P>
+                                                                        <P class="block-title">in funding from</P>
+                                                                        <div class="sideways_img"><img
+                                                                            class="imgdcx"
+                                                                            src="data:image/png;base64,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" alt=""></div>
+                                                                    </div>
+                                                                </div>
 
-                                                    <div class="view-content">
-                                                        <div>
-                                                            <div class="highlighted-box box-green">
-                                                                <div class="box-content">
-                                                                    <p class="label"><i
-                                                                            class="fa-solid fa-sack-dollar m-r-10"></i>Grants
-                                                                    </p>
-                                                                    <p class="big-txt">upto $25K via BeliefDAO grants
-                                                                    </p>
+                                                                <div class="whole_box">
+                                                                    <div class="second_box-pitch-mid"></div>
+                                                                </div>
+
+                                                                <div class="second_box-pitch-right">
+                                                                    <div class="whole_box">
+                                                                        <p class="block-title-1">upto</p>
+                                                                        <p class="block-title-2">$25000</p>
+                                                                        <div class="sideways_1"><p class="block-title">grants and mentorship to select founders via BeliefDAO</p></div>
+                                                                    </div>
                                                                 </div>
                                                             </div>
-                                                        </div>
 
+                                                        </div>
                                                     </div>
 
                                                 </div>
                                             </div>
 
                                         </section>
-
+                                        
+                                        <!-- mentoring imgs -->
                                         <section class="block block-views block-views-blockprograms-block-9 clearfix">
 
-                                            <h2 class="block-title">Mentoring Sessions</h2>
+                                            <p class="mentoring_head_name">Mentoring Sessions</p>
 
 
                                             <div class="views-element-container form-group">
@@ -232,27 +233,28 @@
                                                     <div class="view-content">
                                                         <div>
                                                             <div class="program-view-mentor-profile"><img
-                                                                    src="https://buidl.so/sites/default/files/profile-pictures/1516249934110.jpeg">
+                                                                src="https://buidl.so/sites/default/files/profile-pictures/1516249934110.jpeg" ">
+                                                                <!-- class="img-rounded -->
                                                             </div>
-                                                            <h4>Rohit Jain</h4>
+                                                            <p class="mentoring_head_name">Rohit Jain</p>
                                                         </div>
                                                         <div>
                                                             <div class="program-view-mentor-profile"><img
                                                                     src="https://buidl.so/sites/default/files/profile-pictures/Pareen-Lathia-Buidlers-Tribe.jpeg">
                                                             </div>
-                                                            <h4>Pareen Lathia</h4>
+                                                            <p class="mentoring_head_name">Pareen Lathia</p>
                                                         </div>
                                                         <div>
                                                             <div class="program-view-mentor-profile"><img
                                                                     src="https://buidl.so/sites/default/files/profile-pictures/Raghu-Mohan-Buidlers-Tribe.jpeg">
                                                             </div>
-                                                            <h4>Raghu Mohan</h4>
+                                                            <p class="mentoring_head_name">Raghu Mohan</p>
                                                         </div>
                                                         <div>
                                                             <div class="program-view-mentor-profile"><img
                                                                     src="https://buidl.so/sites/default/files/profile-pictures/1591180214717.jpeg">
                                                             </div>
-                                                            <h4>Sumit Gupta</h4>
+                                                            <p class="mentoring_head_name">Sumit Gupta</p>
                                                         </div>
 
                                                     </div>
@@ -262,19 +264,17 @@
 
                                         </section>
 
+                                        <!-- FAQ's section and button -->
                                         <section class="block block-views block-views-blockprograms-block-6 clearfix">
 
-                                            <h2 class="block-title">FAQs</h2>
-
-
+                                            <p class="block-title-3">Frequently Asked Questions</p>
                                             <div class="views-element-container form-group">
                                                 <div
                                                     class="view view-programs view-id-programs view-display-id-block_6 js-view-dom-id-1d5cf7fd7ace23d0ff23d501930cc7411342f9608f8fb884a5b318d6e80fb460">
-
-
-
                                                     <div class="view-content">
-                                                        <div>Q. I have an idea but not implemented it yet, can I still
+                                                        <div class="landing_parag">
+                                                            <p>
+                                                            Q. I have an idea but not implemented it yet, can I still
                                                             apply?<br>
                                                             Yes. It’s recommended that you have a core team assembled
                                                             already that is able to carry out your idea and a clear
@@ -306,136 +306,13 @@
                                                             Consistent weekly updates on your buidl.so startup profile
                                                             go a long way in showing a founder's perseverance. Proof of
                                                             progress is at the centre of our evaluation process.
-                                                        </div>
-
-                                                    </div>
-
-                                                </div>
-                                            </div>
-
-                                        </section>
-
-
-                                    </div>
-
-                                    <div class="layout__region layout__region--second">
-                                        <section class="block block-views block-views-blockprograms-block-1 clearfix">
-
-
-
-                                            <div class="views-element-container form-group">
-                                                <div
-                                                    class="view view-programs view-id-programs view-display-id-block_1 js-view-dom-id-1a090e99b4215ceadd6fc9aba49ca43e8dfe0a78770ccdfac02b123c98fbdb7c">
-
-
-
-                                                    <div class="view-content">
-                                                        <div>
-                                                            <p class="program-location offline">In-Person</p>
-                                                        </div>
-
-                                                    </div>
-
-                                                </div>
-                                            </div>
-
-                                        </section>
-
-                                        <section class="block block-views block-views-blockprograms-block-2 clearfix">
-
-
-
-                                            <div class="views-element-container form-group">
-                                                <div
-                                                    class="view view-programs view-id-programs view-display-id-block_2 js-view-dom-id-565fdb99cbae5cb73bbc1c8feeaf460801f46ce2935ce2621ff32056e2dfdb08">
-
-
-
-                                                    <div class="view-content">
-                                                        <div>
-                                                            <div class="box-content">
-                                                                <p class="label icon-heading-label"><i
-                                                                        class="fa-solid fa-calendar"></i> Program Dates
-                                                                </p>
-                                                                <p class="big-txt icon-component-text">2nd Aug, 2022 -
-                                                                    12th Aug, 2022</p>
-                                                            </div>
-                                                        </div>
-
-                                                    </div>
-
-                                                </div>
-                                            </div>
-
-                                        </section>
-
-                                        <section class="block block-views block-views-blockprograms-block-3 clearfix">
-
-
-
-                                            <div class="views-element-container form-group">
-                                                <div
-                                                    class="view view-programs view-id-programs view-display-id-block_3 js-view-dom-id-3c562351b3b34dd5cff77d48dc144d91a9b2a44e218a7afd2de04eb0a0792857">
-
-
-
-                                                    <div class="view-content">
-                                                        <div></div>
-
-                                                    </div>
-
-                                                </div>
-                                            </div>
-
-                                        </section>
-
-                                        <section class="block block-views block-views-blockprograms-block-14 clearfix">
-
-
-
-                                            <div class="views-element-container form-group">
-                                                <div
-                                                    class="view view-programs view-id-programs view-display-id-block_14 js-view-dom-id-e44df3d140334e9042c0ea2873f0b9cb75644be975b86108033cc39efee72d0b">
-
-
-
-                                                    <div class="view-content">
-                                                        <div><a href="/user/register"
-                                                                class="btn btn-primary btn-lg btn-block coming-soon">Ended</a>
-                                                        </div>
-
-                                                    </div>
-
-                                                </div>
-                                            </div>
-
-                                        </section>
-
-                                        <section class="block block-views block-views-blockprograms-block-16 clearfix">
-
-
-
-                                            <div class="views-element-container form-group">
-                                                <div
-                                                    class="view view-programs view-id-programs view-display-id-block_16 js-view-dom-id-6036b2daf6a1ae706bb9cabf947ccc94898c5b20e88e81d7b69a1b37f22e11c7">
-
-
-
-                                                    <div class="view-content">
-                                                        <div>
-                                                            <p>To view the full list of finalists, please <a
-                                                                    href="/user/login">login</a> or <a
-                                                                    href="/user/register">register</a> as an investor.
                                                             </p>
                                                         </div>
-
                                                     </div>
-
+                                                    <button type="button" class="btn btn-primary btn-sm">Apply Now</button>
                                                 </div>
                                             </div>
-
                                         </section>
-
 
                                     </div>
 

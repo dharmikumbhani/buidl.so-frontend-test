@@ -1,0 +1,211 @@
+body{
+    /* font-family:Gilroy; */
+    /* font-style: medium; */
+    font-weight: 525;
+}
+.pitch_to{
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 60px;
+    text-align: left;
+}
+.coindcx{
+    font-size: 64px;
+    font-weight: 500;
+    line-height: 96px;
+    text-align: left;
+}
+/* every container of the content */
+.view-content {
+    /* border: 1px solid black; */
+    /* display: flex; */
+}
+/* main body of the page */
+.layout--twocol-section.layout--twocol-section--75-25 > .layout__region--first {
+    flex: 0 1 100%;
+}
+/* images of mentors */
+.program-view-mentor-profile {
+    /* border: 1px solid black; */
+    border-radius: 6px !important;
+    max-width: 250px !important;
+    max-height: 250px;
+    aspect-ratio: 1;
+    min-width: 150px;
+    overflow: hidden;
+    /* width: 220px; */
+    /* margin: 0px 60px 0px 0px; */
+}
+.program-view-mentor-profile > h4{
+    border: 1px solid black !important;
+}
+/* // overlaping */
+.parent-container-flex > .view-content{           
+    display: flex;
+    justify-content: space-around;
+}
+.media_box_phone{
+    display: flex;
+}
+/* Inside third view content */
+.second_box-pitch-left{
+    /* border: 1px solid red; */
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 35px;
+}
+.second_box-pitch-right{
+    /* border: 1px solid red; */
+    width: 50%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 35px;
+
+}
+.second_box-pitch-mid{
+    width: 0;
+    height: 335px;
+    border-right: 2px solid black;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #000000 46.52%, rgba(0, 0, 0, 0) 100%);
+    /* border: 2px solid; */
+    /* border-image-source: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #000000 46.52%, rgba(0, 0, 0, 0) 100%); */
+    }
+.third_view_content > .view-content{
+    margin:150px 0px;
+    width: 100%;
+    margin: auto;
+    /* border: 10px solid red; */
+    display:flex;
+    justify-content: space-around;
+}
+.btn_Apply{
+    height: 48px;
+    width: 316px;
+    border-radius: 12px;
+    padding: 5px 80px 5px 80px;
+    background: #407BFF;
+    color: white;
+    font-size: 18px;
+}
+
+
+.block-title{
+    /* border: 1px solid black; */
+    font-size: 15px;
+    opacity: 0.5;
+    font-weight: 600;
+    line-height: 20px;
+    text-align: center;
+    /* padding-bottom: 12px; */
+}
+.block-title-1{
+    /* border: 1px solid black; */
+    text-align: center;
+    font-weight: 400;
+    font-size: 21px;
+}
+.block-title-2{
+    font-size: 38px;
+    font-weight: 600;
+    text-align: center;
+}
+.block-title-3{
+    display:flex;
+    justify-content: flex-start;
+    font-size: 21px;
+    margin:20px 0px 0px 0px;
+    padding: 15px 0px;
+}
+.sideways_0{
+    /* border: 1px solid black; */
+    width: 50%;
+    margin: auto;
+}
+.sideways_img{
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+}
+/* mentoring related css */
+.mentoring_head_name{
+    text-align: center;
+    font-size: 16px;
+    font-weight: 599;
+    /* font-family: Gilroy; */
+    font-style: SemiBold;
+}
+.imgdcx{
+    /* border: 1px solid black; */
+    width: 217px;
+    height: 124px;
+}
+.whole_box{
+    /* border: 1px solid black; */
+    margin: 50px 0px;
+}
+.btn{
+    padding: 12px 110px;
+    border-radius:6px;
+}
+.landing_parag *{
+    /* border: 1px solid black; */
+    max-width: 90%;
+    min-width: auto;
+    font-weight: 500;
+    font-size: 14px;
+    padding: 0px 30px 10px 0px;
+}
+
+/* Media Queries for Phone as min 320px */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+
+    .media_box_phone{
+        margin: 10% 0px;
+        border: 3mm ridge rgba(232, 237, 132, 0.6);
+        border-radius: 7px;
+        display: block;
+    }
+    .second_box-pitch-left{
+        width: 100%;
+    }
+    .second_box-pitch-mid{
+        display:none;
+    }
+    .second_box-pitch-right{
+        width: 100%;
+        display: flex;
+        justify-content:center;
+        margin-bottom: 25px
+    }
+    .whole_box{
+        /* border: 1px solid black; */
+        margin: 0px auto;
+        width: 100%;
+    }
+    .sideways_1{
+        width: 80%;
+    }
+    .block-title{
+        font-size: 14px;
+        width: 100%;
+        /* border: 1px solid black; */
+    }
+    .block-title-2{
+        font-size: 25px;
+        padding: 10px;
+    }
+    .second_box-pitch-right{
+        padding: 5px;
+    }
+    .second_box-pitch-left{
+        padding: 5px;
+        /* border: 1px solid black; */
+    }
+    
+}

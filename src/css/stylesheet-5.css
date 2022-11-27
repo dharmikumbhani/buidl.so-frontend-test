@@ -962,6 +962,7 @@ body {
   font-size: calc(var(--font-size-large-heading) * 0.8);
 }
 .program-view-banner {
+  /* border:2px solid red; */
   display: block;
   aspect-ratio: 1.78;
   width: 100%;
