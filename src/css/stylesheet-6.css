@@ -1,0 +1,232 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@600&display=swap');
+
+body{
+    background-color: #F5F5F5;
+}
+.path-node{
+    font-family: 'Mulish';
+    color: black;
+}
+
+.program-view-banner img{
+    width: 100%;
+    margin: auto;
+}
+.img-div{
+    position: relative;
+    text-align: center;
+    bottom: 54px;
+    /* left: 47px; */
+    width: 300px;
+    opacity: 0;
+    color: white;
+    height: 6vh;
+    background: black;
+    transition: all 0.6s ease;
+}
+.img-div h4{
+    line-height: 2.1;
+}
+.program-view-mentor-profile:hover .img-div{
+    opacity: 1;
+    /* bottom: ; */
+}
+.program-view-mentor-profile:hover{
+    cursor: pointer;
+}
+
+.block-title{
+    margin: 50px;
+    text-align: center;
+    /* font-size: 30px;
+    color: grey; */
+}
+.block-views-blockprograms-block-6 .block-title{
+    font-size: 30px;
+    color: grey;
+    margin-bottom: 30px;
+    font-family: 'Mulish';
+}
+/* .form-group{
+    width: 80%;
+} */
+.block-views-blockprograms-block-9 > .block-title{
+    font-family: 'Mulish';
+    font-size: 25px;
+    color: grey;
+    font-weight: bold;
+}
+.block-views-blockprograms-block-9{
+    margin: 10vh 0px;
+}
+.program-view-mentor-profile{
+    border-radius: 100%;
+    /* opacity: 0; */
+    max-width: 300px;
+    aspect-ratio: unset;
+    min-width: 150px;
+    width: unset;
+    overflow: unset;
+}
+.program-view-mentor-profile img{
+    height: 300px;
+    display: block;
+    filter: drop-shadow(0 0 0.80rem grey);
+    border-radius: 8px
+}
+.view-content {    
+    display: flex ;
+    flex-wrap: wrap;
+    flex-direction: row;
+    font-size: 18px;
+}
+.view-content h4{
+    text-align: center;
+}
+
+.btn {
+    width: 350px;
+    border-radius: 13px;
+}
+
+.view-content p{
+    margin: 20px;
+
+    text-align: center;
+}
+
+.label {
+    padding: 20px;
+    color: black;
+
+}
+.box-content p{
+    font-size: larger;
+}
+
+.view{
+    font-size: 22px;
+
+    margin-left: 20px;
+}
+h4{
+    font-weight: bolder;
+    font-size: large;
+}
+
+/* .CoinDCX{
+    font-size: larger;
+    margin: 30px;
+    padding: 10px;
+} */
+
+.layout__region--second{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10vh;
+    /* align-items: center; */
+}
+.view-content .program-location{
+    width: 20vh;
+    padding: 15px;
+}
+.block-103{
+    font-family: 'Mulish';
+    margin-bottom: 15vh;
+}
+.block-103 p{
+    /* width: 90%; */
+    font-size: 17px;
+    letter-spacing: 0.5px;
+    margin-bottom: 0;
+}
+.block-103 h1{
+    font-size: 40px;
+}
+.block-103 .s2{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    margin-top: 20px;
+}
+.s1 p{
+    padding: 15px 0;
+}
+.s1 h2{
+    font-size: 30px;
+    font-family: unset;
+}
+.s2 button{
+    font-size: 18px;
+    background-color: #407BFF;
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+    margin: 10px 0;
+}
+.s2 h5{
+    padding: 10px;
+    font-size: 15px;
+    color: #060505;
+    border-radius: 5px;
+    letter-spacing: 0.8px;
+    background-color: #84ccffb5;
+}
+.s2 input{
+    background-color: #407BFF;
+    font-size: 16px;
+    letter-spacing: 0.5px;
+    border-radius: 5px;
+    border: none;
+    padding: 5px;
+    color: white;
+    margin: 10px 0px;
+}
+.block-views-blockprograms-block-105{
+    font-family: 'Mulish';
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    margin-bottom: 20vh;
+}
+.block-views-blockprograms-block-105 p{
+    width: 60%;
+    margin: 20px auto;
+    font-size: 16px;
+    /* font-weight: bolder; */
+    color: grey;
+}
+.block-views-blockprograms-block-105 h2{
+    font-size: 65px;
+    padding: 20px;
+    margin: 30px 0px;
+    font-family: 'Mulish';
+}
+.left-105{
+    width: 50%;
+}
+.vertical {
+    border-left: 2px solid black;
+    background-color: linear-gradient(#000000 0% , #000000 100% ,#000000 0%);
+    height: 300px;
+    /* position:absolute; */
+    left: 50%;
+}
+.s78{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 20vh;
+}
+@media only screen and (min-width: 720px) and (max-width: 1023px){
+
+    .block-views-blockprograms-block-105 p{
+        width: 85%;
+    }
+    .block-views-blockprograms-block-103{
+        margin-left: 4vh;
+    }
+  }
+  /* @media only screen and (min-width: 1024px) {
+    
+  } */
