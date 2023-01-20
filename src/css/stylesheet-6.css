@@ -1,0 +1,95 @@
+@import url("https://fonts.googleapis.com/css2?family=Glory:wght@300;400;600&family=Montserrat&family=Nunito+Sans:wght@300&display=swap");
+
+.content .layout--twocol-section {
+  flex-direction: column;
+}
+
+/*mentor section*/
+.mentors .view-content {
+  flex-wrap: wrap;
+
+  justify-content: space-around;
+}
+
+.program-view-mentor-profile {
+  border-radius: 5px;
+}
+
+.block-views-blockprograms-block-9 h2 {
+  font-family: "Glory", sans-serif !important;
+  font-weight: 600;
+  font-size: 26px;
+  line-height: 30px;
+  text-align: center;
+  opacity: 60%;
+}
+
+.mentors h4 {
+  font-family: "Glory", sans-serif !important;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 29px;
+  text-align: center;
+}
+.program-view-mentor-profile img {
+  width: 250px;
+  height: 250px;
+  object-fit: fill;
+}
+
+.block-views-blockprograms-block-6 {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+}
+/*faq section*/
+.block-views-blockprograms-block-6 h2 {
+  font-family: "Glory", sans-serif !important;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 40px;
+}
+
+@media screen and (min-width: 720px) {
+  /*mentor section*/
+  .mentors .view-content {
+    gap: 10%;
+    justify-content: space-between;
+  }
+  .layout__region--second {
+    margin-top: 100px;
+    width: 50%;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .main-container {
+    padding-inline: 100px;
+  }
+  .block-views-blockprograms-block-6 {
+    max-width: 85%;
+  }
+  .layout__region--second {
+    width: 25%;
+  }
+
+  .block-views-blockprograms-block-9 h2 {
+    font-size: 32px;
+    line-height: 38px;
+  }
+
+  .mentors h4 {
+    font-size: 24px;
+    line-height: 29px;
+  }
+
+  /*faq section*/
+  .block-views-blockprograms-block-6 h2 {
+    font-size: 40px;
+    line-height: 60px;
+  }
+  .block-views-blockprograms-block-6 {
+    font-size: 24px;
+    line-height: 36px;
+  }
+}
