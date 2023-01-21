@@ -64,22 +64,7 @@
   --font-size-large-heading: 56px;
   --font-size-number: 100px;
   --font-size-column-heading: 14px;
-  --font-size-column-link: 12px;
-}
-@media screen and (min-width: 720px) {
-  * {
-    --font-size-xs: 14px;
-    --font-size-s: 16px;
-    --font-size-m: 20px;
-    --font-size-l: 20px;
-    --font-size-xl: 32px;
-    --font-size-xxl: 40px;
-    --font-size-large-heading: 56px;
-    --font-size-number: 120px;
-    --font-size-column-heading: 16px;
-    --font-size-column-link: 14px;
-  }
-}
+  --font-size-column-link: 12px;}
 @media screen and (min-width: 1024px) {
   * {
     --font-size-l: 24px;
@@ -206,8 +191,16 @@ body {
   }
 }
 .btn-primary {
-  background: #3b82f6;
+    background: #407BFF;
+  height: 48px;
+  width: 316px;
+  left: 151px;
+  top: 1260px;
+  border-radius: 12px;
+ 
+  
 }
+
 .btn-grey {
   background: #edf0f4;
 }
@@ -256,6 +249,23 @@ body {
   font-size: 40px;
   line-height: 40px;
   font-family: "gilroy-semibold";
+}
+.mm{
+  
+position: relative;
+width: 333px;
+height: 160px;
+left: 120px;
+top:110px;
+
+
+font-family: 'Gilroy';
+font-style: normal;
+font-weight: 500;
+font-size: 132px;
+line-height: 160px;
+
+color: #000000;
 }
 .layout--twocol-section {
   gap: 1%;
@@ -781,11 +791,42 @@ a:focus {
   font-family: "gilroy-regular";
   font-size: 16px;
   opacity: 0.6;
+  position: relative;
+right:30px;
+top: 40px;
+bottom: 58.33%;
+height: 8px;
+width: 20px;
+
+border: 2px solid #000000
 }
 .box-content > .icon-component-text {
   font-size: 20px;
   line-height: 150%;
-  font-family: "gilroy-medium";
+  position: absolute;
+width: 189px;
+height: 22px;
+
+top:60px;
+
+
+font-family: 'Gilroy';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 22px;
+
+
+
+color: #000000;
+}
+.box-content{
+  display: flex;
+  margin-left: 100px;
+  position: relative;
+  top:66px;
+  left:40px;
+
 }
 .eligibility-criteria {
   color: #000000;
@@ -819,29 +860,37 @@ body {
   flex: 1;
 }
 .program-location {
-  position: absolute;
-  bottom: 0;
-  right: 20px;
-  border-top-left-radius: var(--border-radius-s);
-  border-top-right-radius: var(--border-radius-s);
-  color: var(--color-cta-text);
-  text-transform: uppercase;
-  font-family: "Gilroy-Medium";
-  font-size: var(--font-size-xs);
-  width: fit-content;
-  padding: 6px;
-  margin-bottom: 0px;
+  
+ 
+  margin-bottom: 0px; 
+  Width:79px;
+Height:22px;
+top: 45px;
+
+
+font-family: "Gilroy";
+font-weight: 500;
+font-size: 18px;
+color: #000000;
+position: relative;
+
+
+
 }
-.view-programs .program-location {
-  position: relative;
-  border-radius: var(--border-radius-s);
-  right: 0;
-}
+
+.edit{
+
+ position: relative; 
+ top:46px;
+border-radius: 12px; 
+
+} 
+
 .online {
   background-color: var(--color-green);
 }
 .offline {
-  background-color: var(--color-darkblue);
+  /* background-color: var(--color-darkblue); */
 }
 .ended-program {
   opacity: 0.6;
@@ -965,19 +1014,25 @@ body {
   display: block;
   aspect-ratio: 1.78;
   width: 100%;
+ 
 }
 .program-view-banner > img {
-  width: 100%;
+  width: 150%;
   object-fit: cover;
 }
+
 .program-view-mentor-profile {
-  border-radius: 100%;
-  max-width: 300px;
+  border-radius: 6px;
+  
   aspect-ratio: 1;
-  min-width: 150px;
-  width: 220px;
-  overflow: hidden;
-  margin: 12px;
+  
+ 
+  margin: 60px;
+
+width: 250px;
+height: 250px;
+left: 184px;
+
 }
 .program-view-partner-funds {
   max-width: 300px;
@@ -1411,4 +1466,400 @@ body {
 }
 .finalists-no-results-text {
   text-align: center;
+}
+.head{
+  
+width: 1153px;
+height: 164px;
+margin-left: 44px;
+
+top: 0px;
+}
+.page-header{
+  margin-left: 120px;
+}
+.pull-left{
+  margin-left: 144px;
+}
+
+.first{
+font-size: 15px;
+}
+.program-view-banner > img{
+  
+width: 1144px;
+height: 642px;
+margin-top:-20px ;
+
+
+}
+.pitch{
+  position: relative;
+width: 139px;
+height: 60px;
+font-family: 'Gilroy';
+font-style: normal;
+font-weight: 400;
+font-size: 40px;
+
+
+
+color: #000000;
+}
+.coin{
+  position: relative;
+width: 266px;
+height: 96px;
+font-family: 'Gilroy';
+font-style: normal;
+font-weight: 500;
+font-size: 64px;
+
+
+
+color: #000000;
+}
+.lorem{
+  position: relative;
+  width: 991px;
+  height: 144px;
+  
+  
+  font-family: 'Gilroy';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 150%;
+   
+  
+  color: #000000;
+}
+.winner{
+  position: relative;
+width: 393px;
+height: 76px;
+left: 120px;
+top:110px;
+
+
+
+font-family: 'Gilroy';
+font-style: normal;
+font-weight: 600;
+font-size: 32px;
+line-height: 38px;
+text-align: center;
+
+color: #000000;
+
+opacity: 0.4;
+}
+.fund{
+  position: relative;
+width: 222px;
+height: 38px;
+left: 120px;
+top:110px;
+
+
+/* SB-32 */
+
+font-family: 'Gilroy';
+font-style: normal;
+font-weight: 600;
+font-size: 32px;
+line-height: 38px;
+text-align: center;
+
+color: #000000;
+
+opacity: 0.4;
+}
+.devide{
+  display: flex;
+  flex-direction: row;
+}
+.up{
+  position: relative;
+  top:140px;
+width: 391px;
+height: 338px;
+left: 382px;
+font-family: 'Gilroy';
+font-style: normal;
+font-weight: 500;
+font-size: 32px;
+line-height: 39px;
+text-align: center;
+
+color: #000000;
+}
+.vl {
+  border-left: 2px solid cornflowerblue ;
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #000000 46.52%, rgba(0, 0, 0, 0) 100%);
+  
+  
+  
+  position:absolute;
+  /* top:5px; */
+  margin-top: 50px;
+width: 0px;
+height: 700px;
+left: 600px;
+
+}
+.dollar{
+  position: relative;
+  width: 391px;
+  height: 338px;
+  left: 382px;
+  bottom: 100px;
+  
+
+  
+  font-family: 'Gilroy';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 122px;
+  line-height: 39px;
+  text-align: center;
+  
+  color: #000000;
+  
+}
+.select{
+  position: relative;
+  bottom: 330px;
+  width: 475px;
+  height: 76px;
+  left: 340px;
+  font-family: 'Gilroy';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 38px;
+  text-align: center;
+  
+  color: #000000;
+  
+  opacity: 0.4;
+}
+.mentor{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+ 
+
+
+color: #000000;
+
+opacity: 0.6;
+}
+h4{
+  position: relative;
+  width: 198px;
+  height: 29px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  
+  
+  
+  font-family: 'Gilroy';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  left:80px;
+  bottom:40px;
+ 
+  
+  text-align: center;
+  
+  color: #000000;
+}
+.block-title{
+  
+position: relative;
+width: 505px;
+height: 60px;
+left: 48px;
+
+
+font-family: 'Gilroy';
+font-style: normal;
+font-weight: 400;
+font-size: 40px;
+line-height: 150%;
+
+
+
+color: #000000;
+}
+.question{
+  position: relative;
+width: 903px;
+height: 900px;
+left: 48px;
+
+
+font-family: 'Gilroy';
+font-style: normal;
+font-weight: 300;
+font-size: 18px;
+line-height: 150%;
+
+
+
+
+color: #000000;
+
+}
+.coinn{
+margin-top: 250px;
+
+color:darkblue ;
+font-weight: 1000;
+position: relative;
+left:100px;
+bottom:2px;
+width: 266px;
+height: 96px;
+font-family: 'Gilroy';
+font-style: normal;
+font-weight: 1000;
+font-size: 64px;
+}
+.dcx{
+ 
+  position: relative;
+  left:230px;
+  bottom:95px;
+  width: 266px;
+  height: 96px;
+  font-family: 'Gilroy';
+  font-style: normal;
+  font-weight: 1000;
+  font-size: 64px;
+  color: orangered;
+}
+@media screen and (max-width: 720px)  {
+  * {
+    --font-size-xs: 14px;
+    --font-size-s: 16px;
+    --font-size-m: 20px;
+    --font-size-l: 20px;
+    --font-size-xl: 32px;
+    --font-size-xxl: 40px;
+    --font-size-large-heading: 56px;
+    --font-size-number: 120px;
+    --font-size-column-heading: 16px;
+    --font-size-column-link: 14px;
+  }
+ 
+ 
+  .program-view-mentor-profile > img,
+.program-view-partner-funds > img {
+  position: relative;
+  object-fit: cover;
+  width: 200px !important;
+  align-self: center;
+  left:-8px;
+}
+.peopleMentor{
+  position: relative;
+  left:50px;
+  bottom: 50px;
+} 
+
+  .main_img{
+  position: relative;
+  right:180px;
+  
+   top: 0px; 
+   }  
+
+  
+   .answer_idea{
+    font-size: 12px;
+    font-weight: 100;
+    position: relative;
+    left:6px; }
+   
+    .now_btn{
+     width:255px; 
+      margin-left: 30px;
+      margin-top: -250px; 
+    } 
+     .photo>img{  
+       width:299px; 
+       height: 299px; 
+      
+      
+     }   
+     .header_img{
+      margin-top: -250px;
+      position: relative;
+      left:-40px;
+      
+     }
+     .lorem{
+      font-size: 14px;
+      
+    } 
+    .date_img{
+      position: relative;
+      top:-30px;
+      left:-5px;
+    }
+    .both_btn{
+      position: relative;
+      left:-12px;
+      width: 50px;
+     
+      
+    } 
+    .middle_break{
+      position: relative;
+      display: flex;
+      flex-direction: column !important;
+     
+
+    }
+    .right_container{
+      position: relative;
+      left:-450px;
+
+    }
+    .left_container{
+      position: relative;
+      left:-60px;
+      
+    }
+    .winner{
+      position: relative;
+      left:12px;
+      
+      font-size: 30px;
+    }
+    .mm{
+      font-size: 60px;
+     } 
+   .coins{
+    position: relative;
+    left:-30px;
+  
+   }
+   .select{
+    margin-right: 35px;
+    font-size: 20px;
+   }
+   .dollar{
+    font-size: 60px;
+   }
+    
+  
+  
+
 }
