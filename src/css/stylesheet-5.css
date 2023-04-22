@@ -207,6 +207,8 @@ body {
 }
 .btn-primary {
   background: #3b82f6;
+  padding-right: 40px;
+  padding-left: 40px;
 }
 .btn-grey {
   background: #edf0f4;
@@ -950,6 +952,7 @@ body {
 .parent-container-flex .view-content {
   display: flex;
   flex-direction: row;
+  justify-content: center;
   align-items: center;
   flex-wrap: wrap;
   box-sizing: border-box;
